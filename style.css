@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "FiraSans"; src: url("font/FiraSans-Regular.otf");
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family: "FiraSans"; src: url("font/FiraSans-Italic.otf");
+    font-weight: normal; font-style: italic;
+}
+@font-face {
+    font-family: "FiraSans"; src: url("font/FiraSans-Light.otf");
+    font-weight: 100; font-style: normal;
+}
+@font-face {
+    font-family: "FiraSans"; src: url("font/FiraSans-LightItalic.otf");
+    font-weight: 100; font-style: italic;
+}
+@font-face {
+    font-family: "FiraSans"; src: url("font/FiraSans-Bold.otf");
+    font-weight: bold; font-style: normal;
+}
+@font-face {
+    font-family: "FiraSans"; src: url("font/FiraSans-BoldItalic.otf");
+    font-weight: bold; font-style: italic;
+}
+@font-face {
+    font-family: "FiraMono"; src: url("font/FiraMono-Regular.otf");
+    font-weight: normal; font-style: normal;
+}
+
+body {
+    color: rgba(0,0,0,0.8);
+    margin: 0;
+    line-height: 1.3;
+    font-family: FiraSans;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #4078c0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    font-family: FiraMono;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+header nav > a {
+    margin: 0 20px;
+}
+
+main {
+    margin: auto;
+    width: 800px;
+}
+
+#projects > li {
+    margin: 2px 0;
+}
